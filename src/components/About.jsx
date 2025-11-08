@@ -28,8 +28,8 @@ const About = () => {
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        <h2 className="section-title">Sobre mí</h2>
-        
+        <h2 className="section-title">Sobre mi</h2>
+              
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-8 text-center">
             Soy docente universitaria en el área de desarrollo de software, con experiencia en la enseñanza de lenguajes como JavaScript, C# y PHP. Mi mayor motivación es inspirar a mis estudiantes a aprender creando, integrando metodologías activas y herramientas digitales en cada clase.

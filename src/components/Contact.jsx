@@ -66,4 +66,4 @@ const Contact = () => {
     </section>
   );
 };
-export default Education;
+export default Contact;
