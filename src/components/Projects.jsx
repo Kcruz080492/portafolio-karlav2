@@ -27,12 +27,22 @@ const Projects = () => {
               viewport={{ once: true }}
               className="bg-white dark:bg-gray-900 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 dark:border-gray-700 flex flex-col"
             >
-              {/* Project Image Placeholder */}
+              {/* Project Image Placeholder 
               <div className="h-48 bg-primary-500 flex items-center justify-center">
-                <span className="text-gray-900 dark:text-white text-4xl font-bold">      
+                <span className="text-gray-900 dark:text-white text-4xl font-bold">
                   {project.title.charAt(0)}
                 </span>
+              </div>*/}
+
+              {/* Project Image Placeholder */}
+              <div className="h-48 bg-primary-500 flex items-center justify-center overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
               </div>
+
 
               {/* Project Content */}
               <div className="p-6 flex-1 flex flex-col">
@@ -53,7 +63,7 @@ const Projects = () => {
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="px-3 py-1 bg-primary-50 dark:bg-primary-900/30 text-gray-500 dark:text-purple-700 rounded-full text-xs font-medium"
+                      className="px-3 py-1 bg-primary-50 dark:bg-primary-900/30 text-gray-600 dark:text-gray-300 rounded-full text-xs font-medium"
                     >
                       {tech}
                     </span>

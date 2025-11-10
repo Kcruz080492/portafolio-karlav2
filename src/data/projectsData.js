@@ -7,7 +7,7 @@ export const projectsData = [
     role: 'Desarrolladora Full Stack',
     github: 'https://github.com/Kcruz080492/CitasMedicas',
     demo: 'https://harmonious-alfajores-cb557b.netlify.app',
-    image: '/projects/citas-medicas.png'
+    image: 'https://res.cloudinary.com/dqstycwjr/image/upload/v1762813542/Medicas_sp27ps.png'
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const projectsData = [
     role: 'Desarrolladora Frontend',
     github: 'https://github.com/Kcruz080492/kodigo-music-spa',
     demo: 'https://peaceful-haupia-f01ddc.netlify.app',
-    image: '/projects/kodigo-music.png'
+    image: 'https://res.cloudinary.com/dqstycwjr/image/upload/v1762813546/Music_fwuazl.png'
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const projectsData = [
     role: 'Desarrolladora Full Stack',
     github: 'https://github.com/dinora93/shineScript',
     demo: 'https://shine-script-khaki.vercel.app',
-    image: '/projects/shine-script.png'
+    image: 'https://res.cloudinary.com/dqstycwjr/image/upload/v1762813540/Shine_qg47qq.png'
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const projectsData = [
     role: 'Desarrolladora Backend',
     github: 'https://github.com/Kcruz080492/api-gestion-usuarios',
     demo: null,
-    image: '/projects/api-usuarios.png'
+    image: 'https://res.cloudinary.com/dqstycwjr/image/upload/v1762813542/Gestion_uufzcd.png'
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const projectsData = [
     role: 'Desarrolladora Full Stack',
     github: 'https://github.com/dinora93/Alojamientos',
     demo: null,
-    image: '/projects/alojamientos.png'
+    image: 'https://res.cloudinary.com/dqstycwjr/image/upload/v1762813548/Alojamiento_jw09ro.png'
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ export const projectsData = [
     role: 'Desarrolladora Frontend',
     github: 'https://github.com/Kcruz080492/GameZone',
     demo: 'https://kcruz080492.github.io/GameZone',
-    image: '/projects/gamezone.png'
+    image: 'https://res.cloudinary.com/dqstycwjr/image/upload/v1762813536/GameZone_jrfazc.png'
   },
   {
     id: 7,
@@ -67,6 +67,6 @@ export const projectsData = [
     role: 'Desarrolladora Frontend',
     github: 'https://github.com/Kcruz080492/mi-tienda',
     demo: null,
-    image: '/projects/siman.png'
+    image: 'https://res.cloudinary.com/dqstycwjr/image/upload/v1762813537/Siman_spp8sr.png'
   }
 ];
