@@ -29,18 +29,18 @@ const Projects = () => {
             >
               {/* Project Image Placeholder */}
               <div className="h-48 bg-primary-500 flex items-center justify-center">
-                <span className="text-white text-4xl font-bold">
+                <span className="text-gray-900 dark:text-white text-4xl font-bold">      
                   {project.title.charAt(0)}
                 </span>
               </div>
 
               {/* Project Content */}
               <div className="p-6 flex-1 flex flex-col">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
+                <h3 className="text-xl font-bold text-yellow-500 mb-2">
                   {project.title}
                 </h3>
 
-                <p className="text-sm text-primary-600 dark:text-primary-400 font-medium mb-3">
+                <p className="text-sm text-gray-600 dark:text-gray-300 font-medium mb-3">
                   {project.role}
                 </p>
 
@@ -53,7 +53,7 @@ const Projects = () => {
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="px-3 py-1 bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full text-xs font-medium"
+                      className="px-3 py-1 bg-primary-50 dark:bg-primary-900/30 text-gray-500 dark:text-purple-700 rounded-full text-xs font-medium"
                     >
                       {tech}
                     </span>

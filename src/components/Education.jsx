@@ -51,7 +51,7 @@ const Education = () => {
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                     {item.title}
                   </h3>
-                  <span className="px-3 py-1 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full text-xs font-medium whitespace-nowrap">
+                  <span className= "px-3 py-1 bg-primary-100 dark:bg-primary-900/30 text-black dark:text-gray-300 rounded-full text-xs font-medium whitespace-nowrap">
                     {item.type}
                   </span>
                 </div>

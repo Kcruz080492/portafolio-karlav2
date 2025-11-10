@@ -125,7 +125,7 @@ const Skills = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.3, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="px-6 py-3 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full font-medium"
+                className="px-6 py-3 bg-primary-100 dark:bg-primary-900/30 text-gray-900 dark:text-white rounded-full font-medium"
               >
                 {methodology}
               </motion.div>

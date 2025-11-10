@@ -49,7 +49,7 @@ const About = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
                 className="p-6 bg-white dark:bg-gray-800 rounded-xl border border-primary-100 dark:border-gray-600 text-center shadow-md">
-                <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-600 text-white rounded-lg mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-600 text-gray-900 dark:text-white rounded-lg mb-4">
                   {item.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
